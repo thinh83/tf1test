@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tf1test_1683582098837-push-trigger-input-set
+  identifier: Build_tf1test_1683582098837pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_tf1test_1683582098837
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
